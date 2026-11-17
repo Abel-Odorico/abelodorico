@@ -1,5 +1,5 @@
+# O fundo e as cores dos cards seguem o ADL e sao aplicados por
+# scripts/adl_recolor.py, depois que os cards sao gerados.
 show: [summary, languages, contributions, weekly, streaks]
 look:
   style: classic
-  color: amber      # predefinida mais próxima do dourado #C9A961
-  background: 0B1F3B
