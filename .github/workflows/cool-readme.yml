@@ -1,0 +1,41 @@
+name: Update README cards
+
+on:
+  schedule:
+    - cron: "17 */2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pedrocatalao/github-cool-readme@v1
+        with:
+          token: ${{ secrets.CARDS_TOKEN }}
+          output: ${{ runner.temp }}/cards
+
+      - name: Publish cards branch
+        run: |
+          set -euo pipefail
+          if ! ls "$RUNNER_TEMP"/cards/*.svg >/dev/null 2>&1; then
+            echo "No cards generated."; exit 0
+          fi
+          git fetch origin cards || true
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan cards-new
+          git rm -rf --quiet . || true
+          cp "$RUNNER_TEMP"/cards/*.svg .
+          git add *.svg
+          git commit -m "Update cards"
+          if git rev-parse origin/cards >/dev/null 2>&1 && \
+             [ "$(git rev-parse HEAD^{tree})" = "$(git rev-parse origin/cards^{tree})" ]; then
+            echo "No changes."; exit 0
+          fi
+          git push --force origin HEAD:cards
