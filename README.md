@@ -1,44 +1,42 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Abel Odorico — Além do Alcance · Peep Studio" width="100%">
+  <img src="assets/banner.svg" alt="Abel Odorico — inovação, processos e IA" width="100%">
 </p>
 
-<p align="center">
-  Criador de conteúdo e desenvolvedor
-</p>
+# Abel Odorico
 
-<p align="center">
-  <a href="https://github.com/abel-odorico"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-abel--odorico-0B1F3B?style=for-the-badge&logo=github&logoColor=C9A961&labelColor=0A4D5C"></a>
-</p>
+Inovação, processos e IA.
 
----
-
-## 📊 Estatísticas
+## Em números
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/abel-odorico/abelodorico/cards/summary-dark.svg">
-    <img src="https://raw.githubusercontent.com/abel-odorico/abelodorico/cards/summary-light.svg" width="400" alt="Resumo do GitHub">
+    <img src="https://raw.githubusercontent.com/abel-odorico/abelodorico/cards/summary-light.svg" width="400" alt="Resumo da atividade no GitHub: commits, pull requests, issues e dias ativos">
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/abel-odorico/abelodorico/cards/languages-dark.svg">
-    <img src="https://raw.githubusercontent.com/abel-odorico/abelodorico/cards/languages-light.svg" width="400" alt="Linguagens">
+    <img src="https://raw.githubusercontent.com/abel-odorico/abelodorico/cards/languages-light.svg" width="400" alt="Linguagens mais usadas">
   </picture>
 </p>
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/abel-odorico/abelodorico/cards/contributions-dark.svg">
-    <img src="https://raw.githubusercontent.com/abel-odorico/abelodorico/cards/contributions-light.svg" width="400" alt="Contribuições">
+    <img src="https://raw.githubusercontent.com/abel-odorico/abelodorico/cards/contributions-light.svg" width="400" alt="Contribuições em projetos de outras pessoas">
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/abel-odorico/abelodorico/cards/weekly-dark.svg">
-    <img src="https://raw.githubusercontent.com/abel-odorico/abelodorico/cards/weekly-light.svg" width="400" alt="Ritmo semanal">
+    <img src="https://raw.githubusercontent.com/abel-odorico/abelodorico/cards/weekly-light.svg" width="400" alt="Atividade por dia da semana">
   </picture>
 </p>
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/abel-odorico/abelodorico/cards/streaks-dark.svg">
-    <img src="https://raw.githubusercontent.com/abel-odorico/abelodorico/cards/streaks-light.svg" width="400" alt="Sequências">
+    <img src="https://raw.githubusercontent.com/abel-odorico/abelodorico/cards/streaks-light.svg" width="400" alt="Sequências de dias com atividade">
   </picture>
 </p>
+
+## Contato
+
+[abelodorico.com](https://abelodorico.com)

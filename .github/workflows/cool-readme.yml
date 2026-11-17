@@ -20,6 +20,9 @@ jobs:
           token: ${{ secrets.CARDS_TOKEN }}
           output: ${{ runner.temp }}/cards
 
+      - name: Apply ADL palette
+        run: python3 -I scripts/adl_recolor.py "$RUNNER_TEMP/cards"
+
       - name: Publish cards branch
         run: |
           set -euo pipefail
