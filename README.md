@@ -1,11 +1,13 @@
-<h1 align="center">Olá, eu sou o Abel Odorico 👋</h1>
-
 <p align="center">
-  Criador de conteúdo e desenvolvedor — <b>Além do Alcance</b> · Peep Studio
+  <img src="assets/banner.svg" alt="Abel Odorico — Além do Alcance · Peep Studio" width="100%">
 </p>
 
 <p align="center">
-  <a href="https://github.com/abel-odorico"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-abel--odorico-181717?logo=github"></a>
+  Criador de conteúdo e desenvolvedor
+</p>
+
+<p align="center">
+  <a href="https://github.com/abel-odorico"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-abel--odorico-0B1F3B?style=for-the-badge&logo=github&logoColor=C9A961&labelColor=0A4D5C"></a>
 </p>
 
 ---

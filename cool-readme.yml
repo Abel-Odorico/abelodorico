@@ -1,4 +1,5 @@
 show: [summary, languages, contributions, weekly, streaks]
 look:
   style: classic
-  color: amber
+  color: amber      # predefinida mais próxima do dourado #C9A961
+  background: 0B1F3B
